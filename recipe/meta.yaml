@@ -1,5 +1,5 @@
 {% set name = "django-rest-polymorphic" %}
-{% set version = "0.1.8" %}
+{% set version = "0.1.9" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8a763ab0459b93724d186e101c3b92d0b1916305b6b221f65064c02ebc2267a8
+  sha256: 43d7f8c5b43a225fe792ac40e98d196d4c8d6872a796b61246085819b1b5f1c6
 
 build:
   noarch: python
@@ -34,7 +34,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: "Polymorphic serializers for Django REST Framework."
+  summary: Polymorphic serializers for Django REST Framework.
   dev_url: https://github.com/apirobot/django-rest-polymorphic
 
 extra:
