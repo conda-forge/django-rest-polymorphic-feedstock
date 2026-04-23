@@ -1,5 +1,5 @@
 {% set name = "django-rest-polymorphic" %}
-{% set version = "0.1.9" %}
+{% set version = "0.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 43d7f8c5b43a225fe792ac40e98d196d4c8d6872a796b61246085819b1b5f1c6
+  sha256: 2960f58ed9a8bb0d42bc72c8ffaadfbd7f37d2573d42a1cd9a6460f3d572b519
 
 build:
   noarch: python
-  number: 1
+  number: 0
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
